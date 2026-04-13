@@ -5,22 +5,22 @@
   <p>logo designed by <a href="http://wolfertdan.com/">Daniel David</a></p>
 </div>
 
-# Jumble
+# Jumble-sparc
 
-A user-friendly Nostr client for exploring relay feeds
+Spatia-Arcana's community fork of Jumble with customized relays and relay sets
 
-Experience Jumble at [https://jumble.social](https://jumble.social)
+Experience the full Jumble client at [https://jumble.social](https://jumble.social)
 
 ## Forks
 
-> Some interesting forks of Jumble.
+> Other interesting forks of Jumble.
 
 - [https://fevela.me/](https://fevela.me/) - by [@daniele](https://jumble.social/users/npub10000003zmk89narqpczy4ff6rnuht2wu05na7kpnh3mak7z2tqzsv8vwqk)
 - [https://x21.com/](https://x21.com/) - by [@Karnage](https://jumble.social/users/npub1r0rs5q2gk0e3dk3nlc7gnu378ec6cnlenqp8a3cjhyzu6f8k5sgs4sq9ac)
 - [https://jumble.imwald.eu/](https://jumble.imwald.eu/) Repo: [Silberengel/jumble](https://github.com/Silberengel/jumble) - by [@Silberengel](https://jumble.social/users/npub1l5sga6xg72phsz5422ykujprejwud075ggrr3z2hwyrfgr7eylqstegx9z)
 - [https://jumble.thecaptain.dev/](https://jumble.thecaptain.dev/) by [@Vibe Captain](https://jumble.social/users/npub1vlprg9j8u5l92az0zd6yd8ks7tl560v8ssepdkn07nwekdl9rs4saccfwp)
 
-## Run Locally
+## Run Jumble Locally
 
 ```bash
 # Clone this repository
@@ -51,7 +51,7 @@ docker compose up --build -d
 
 After finishing, access: http://localhost:8089
 
-## Community mode (Optional)
+## Community mode (Optional) - this is what Spatia-Arcana is doing:
 
 If you want to run Jumble in community mode (with pre-configured relay sets and relays), you can set the following environment variables in a `.env` file at the root of the project:
 
@@ -67,13 +67,13 @@ VITE_COMMUNITY_RELAY_SETS=[{"id": "example.com", "name": "The Example Feed", "re
 VITE_COMMUNITY_RELAYS="wss://relay.example.com/,wss://relay.example.org/"
 ```
 
-## Sponsors
+##  Jumble's Sponsors:
 
 <a target="_blank" href="https://opensats.org/">
   <img alt="open-sats-logo" src="./resources/open-sats-logo.svg" height="44"> 
 </a>
 
-## Donate
+## Donate to Jumble:
 
 If you like this project, you can buy me a coffee :)
 
