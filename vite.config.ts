@@ -59,8 +59,8 @@ export default defineConfig(({ mode }) => {
           enabled: true
         },
         manifest: {
-          name: 'Jumble',
-          short_name: 'Jumble',
+          name: 'SpArc',
+          short_name: 'SpArc',
           icons: [
             {
               src: '/pwa-512x512.png',
