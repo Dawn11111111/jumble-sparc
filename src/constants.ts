@@ -203,14 +203,14 @@ export const PRIMARY_COLORS = {
   DEFAULT: {
     name: 'Default',
     light: {
-      primary: '345 45% 35%',
-      'primary-hover': '345 45% 45%',
+      primary: '215 45% 35%',
+      'primary-hover': '215 45% 45%',
       'primary-foreground': '0 0% 98%',
       ring: '345 45% 35%'
     },
     dark: {
-      primary: '345 45% 35%',
-      'primary-hover': '345 45% 45%',
+      primary: '215 45% 35%',
+      'primary-hover': '215 45% 45%',
       'primary-foreground': '240 5.9% 10%',
       ring: '345 45% 35%'
     }
